@@ -1,0 +1,43 @@
+/* 
+    Created on : May 8, 2014, 11:34:48 AM
+    Author     : Vince
+*/
+
+root {
+    display: block;
+}
+
+.root {
+    db-background: #002244;
+    
+    /* Global Styles */
+    -fx-background-color: db-background;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-smoothing-type: lcd;
+    -fx-font-size: 10px;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.heading {
+    -fx-font-size: 20px;
+}
+
+.digital {
+    -fx-font-family: "Digital";
+}
+
+.big-num {
+    -fx-font-size: 64px;
+}
+
+.digital-num-bg {
+    -fx-text-fill: rgba(1.0, 1.0, 1.0, 0.25);
+}
+
+.motor-val {
+    -fx-font-size: 48px;
+}
